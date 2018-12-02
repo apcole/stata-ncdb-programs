@@ -463,10 +463,6 @@ stsum, by (cohort)
 **Subgroup analysis for the reviewer's comments ****
 ****************************************************
 
-* The idea is to create a new time variable looking at 5 years, 10 years and end of follow-up as 
-*well as a new variable for the vital status specifically at this given time. Afterwards, we 
-*can re-run the regular KM and Cox regression analyses * 
-
 *** 5 years ****
 
 gen time=DX_LASTCONTACT_DEATH_MONTHS
